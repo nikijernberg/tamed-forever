@@ -1,0 +1,44 @@
+## Interface: 16001
+## Title: Tamed Forever
+## Author: Based on Tamed by moody (https://github.com/moody/Tamed)
+## Version: 1.0.0-forever
+## Notes: Hunter pet ability guide for WoW: Forever. Find which NPC teaches an ability rank and where they are.
+## SavedVariables: TamedForeverDB
+## IconTexture: Interface\ICONS\Ability_Hunter_BeastTaming
+## Category: Hunter
+## X-Original-Addon: Tamed
+## X-Original-Repository: https://github.com/moody/Tamed
+## X-License: MIT
+## X-Data-Status: imported-from-tamed-unverified-for-forever
+
+# Libraries
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\AceAddon-3.0.lua
+libs\AceConsole-3.0.lua
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0.lua
+
+# Data (static Tamed import; not claimed as Forever-verified)
+data\TameableAbilities.lua
+data\TameableNPCs.lua
+
+# General
+src\_init.lua
+src\compat.lua
+src\locale.lua
+src\colors.lua
+src\data.lua
+src\commands.lua
+src\db.lua
+src\tooltips.lua
+src\debug.lua
+
+# UI
+src\ui\minimap-icon.lua
+src\ui\widgets.lua
+src\ui\map-pins.lua
+src\ui\main.lua
+src\ui\groups\ability-group.lua
+src\ui\groups\options-group.lua
